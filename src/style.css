@@ -7,40 +7,75 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: var(--background-color);
+}
+
+.homepage-hero {
   margin: 50px 0;
 }
 
 p {
   font-weight: medium;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   text-align: center;
 }
 
 h1 {
   font-weight: bold;
-  font-size: 96px;
+  font-size: 86px;
   color: var(--main-color);
   text-align: center;
 }
 
 h2 {
   font-weight: medium;
-  font-size: 36px;
+  font-size: 26px;
   color: white;
   text-align: center;
 }
 
 .btn-main {
-  background-color: var(--secondary-color);
+  background-color: var(--main-color);
   border: solid 4px var(--main-color);
   border-radius: 4px;
   color: white;
-  padding: 20px 10px;
+  padding: 15px 10px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   display: block;
   text-align: center;
   margin: 50px 500px;
   font-size: 20px;
   font-weight: medium;
+}
+
+.btn-main:hover {
+  color: #fff !important;
+  background-color: var(--secondary-color) !important;
+}
+
+.navbar {
+  background-color: var(--background-color) !important;
+  padding: 0px;
+}
+
+.navbar-brand {
+  padding: 40px;
+  margin-left: 40px;
+}
+
+.navbar-nav {
+  margin-left: 400px;
+}
+
+.nav-link {
+  color: white !important;
+  margin-left: 30px;
+}
+
+.active {
+  color: var(--secondary-color) !important;
+}
+
+.nav-number {
+  color: var(--secondary-color);
 }
