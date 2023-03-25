@@ -48,9 +48,10 @@ h2 {
   color: white;
   padding: 15px 10px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  display: block;
+  display: relative;
   text-align: center;
-  margin: 50px 500px;
+  margin-top: 50px;
+  width: 25%;
   font-size: 20px;
   font-weight: medium;
 }
@@ -92,6 +93,7 @@ h2 {
 /* About  */
 
 .about-page {
+  padding-top: 100px;
   margin-top: 100px;
   margin-bottom: 100px;
   margin-left: 50px;
@@ -188,4 +190,12 @@ h4 {
 
 .github {
   color: var(--main-color);
+}
+
+/* responsive */
+
+@media (max-width: 820px) {
+  .btn-main {
+    width: 40%;
+  }
 }

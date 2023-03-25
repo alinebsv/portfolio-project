@@ -22,7 +22,7 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand" href="index.html"
           ><img
             src="images/logo.png"
             alt="Aline Vieira"
@@ -45,17 +45,17 @@
             <li class="nav-item"></li>
 
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="/index.html#about"
                 ><span class="nav-number">01.</span> About</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="/index.html#work"
                 ><span class="nav-number">02.</span> Work</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="/index.html#contact"
                 ><span class="nav-number">03.</span> Contact</a
               >
             </li>
@@ -68,13 +68,13 @@
       <p>Hi, my name is</p>
       <h1>Aline Vieira</h1>
       <h2>I'm a Brazilian front-end developer based in Vancouver, Canada</h2>
-      <a href="#" class="btn btn-main">Check out my work!</a>
+      <a href="#work" class="btn btn-main">Check out my work!</a>
     </div>
 
-    <div class="about-page">
+    <div class="about-page" id="about">
       <div class="container">
         <div class="row">
-          <div class="col-6 mr-10 about">
+          <div class="col-md-6 mr-10 about">
             <h3>About me</h3>
             <div class="description">
               Hello! My name is Aline and I am currently learning
@@ -96,19 +96,19 @@
             </div>
           </div>
 
-          <div class="col-6 skills">
+          <div class="col-md-6 skills">
             <h3>Skills</h3>
             <div class="container">
               <div class="row">
-                <div class="col-3 skill-icon">HTML/CSS</div>
-                <div class="col-3 skill-icon">JavaScript</div>
-                <div class="col-3 skill-icon">React</div>
-                <div class="col-3 skill-icon">Bootstrap</div>
-                <div class="col-3 skill-icon">Github</div>
-                <div class="col-3 skill-icon">SEO</div>
-                <div class="col-3 skill-icon">Photoshop</div>
-                <div class="col-3 skill-icon">Figma</div>
-                <div class="col-3 skill-icon">InDesign</div>
+                <div class="col-md-3 skill-icon">HTML/CSS</div>
+                <div class="col-md-3 skill-icon">JavaScript</div>
+                <div class="col-md-3 skill-icon">React</div>
+                <div class="col-md-3 skill-icon">Bootstrap</div>
+                <div class="col-md-3 skill-icon">Github</div>
+                <div class="col-md-3 skill-icon">SEO</div>
+                <div class="col-md-3 skill-icon">Photoshop</div>
+                <div class="col-md-3 skill-icon">Figma</div>
+                <div class="col-md-3 skill-icon">InDesign</div>
               </div>
             </div>
           </div>
@@ -117,11 +117,12 @@
       <hr />
     </div>
 
-    <div class="work">
+    <div class="work" id="work">
+      <br />
       <h3>Some things I've done</h3>
       <div class="container">
         <div class="row mt-5 mb-5">
-          <div class="col-6">
+          <div class="col-md-6 d-none d-lg-block">
             <img
               src="/images/weather.png"
               alt="Weather App"
@@ -129,7 +130,7 @@
               height="260"
             />
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <h4>Weather App</h4>
             <div class="description">
               A weather application made with Vanilla Javascript for a web
@@ -141,7 +142,7 @@
           </div>
         </div>
         <div class="row mt-5 mb-5">
-          <div class="col-6">
+          <div class="col-md-6">
             <h4 class="random-title">Lorem Ipsum</h4>
             <div class="description">
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -150,7 +151,7 @@
 
             <a class="btn btn-app">Launch App</a>
           </div>
-          <div class="col-6">
+          <div class="col-md-6 d-none d-lg-block">
             <img
               src="/images/weather.png"
               alt="Weather App"
@@ -162,15 +163,20 @@
       </div>
     </div>
     <hr />
-    <div class="contact">
+    <div class="contact" id="contact">
       <h3>Get in touch</h3>
       <div class="contact-text">
         If you’d like to inquire about my work or just share experiences, my
         inbox is always open!
       </div>
-      <a class="btn btn-main">Say Hello</a>
+      <a class="btn btn-main" href="mailto:alinevieira@outlook.com"
+        >Say Hello</a
+      >
       <div class="find-me">
-        Or find me on <a class="github" href="#" target="_blank">Github</a>
+        Or find me on
+        <a class="github" href="https://github.com/alinebsv" target="_blank"
+          >Github</a
+        >
       </div>
     </div>
   </body>
