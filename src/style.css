@@ -1,8 +1,9 @@
 /* Main */
 :root {
-  --background-color: #4c5058;
-  --main-color: #fbafc3;
-  --secondary-color: #a48892;
+  --background-color: #f7ebec;
+  --main-color: #f28482;
+  --secondary-color: #415a77;
+  --paragraph-text-color: #415a77;
 }
 
 body {
@@ -15,12 +16,13 @@ body {
 .homepage-hero {
   margin-top: 40px;
   margin-bottom: 70px;
+  text-align: center;
 }
 
 p {
   font-weight: medium;
   font-size: 30px;
-  color: white;
+  color: var(--paragraph-text-color);
   text-align: center;
 }
 
@@ -29,19 +31,20 @@ h1 {
   font-size: 86px;
   color: var(--main-color);
   text-align: center;
+  line-height: ;
 }
 
 h2 {
   font-weight: medium;
   font-size: 26px;
-  color: white;
+  color: var(--paragraph-text-color);
   text-align: center;
 }
 
 .btn-main {
   background-color: var(--main-color);
   border: solid 4px var(--main-color);
-  border-radius: 4px;
+  border-radius: 20px;
   color: white;
   padding: 15px 10px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -66,16 +69,16 @@ h2 {
 
 .navbar-brand {
   padding: 40px;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 .navbar-nav {
-  margin-left: 400px;
+  margin-left: 500px;
 }
 
 .nav-link {
-  color: white !important;
-  margin-left: 30px;
+  color: var(--paragraph-text-color) !important;
+  margin-left: 50px;
 }
 
 .active {
@@ -83,7 +86,7 @@ h2 {
 }
 
 .nav-number {
-  color: var(--secondary-color);
+  color: var(--main-color);
 }
 
 /* About  */
@@ -97,14 +100,15 @@ h2 {
 h3 {
   font-weight: bolder;
   font-size: 38px;
-  color: #fff;
+  color: var(--paragraph-text-color);
 }
 
 .description {
   font-size: 15px;
   line-height: 1.5;
-  color: #fff;
+  color: var(--paragraph-text-color);
   text-align: justify;
+  width: 500px;
 }
 
 strong {
@@ -113,8 +117,9 @@ strong {
 
 .skill-icon {
   text-align: center;
-  color: #fff;
-  border: solid 2px var(--secondary-color);
+  background-color: #f28482;
+  color: white;
+  border: solid 2px var(--main-color);
   border-radius: 8px;
   margin: 5px;
   padding: 5px 7px;
