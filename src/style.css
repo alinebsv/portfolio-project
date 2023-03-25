@@ -73,7 +73,7 @@ h2 {
 }
 
 .navbar-nav {
-  margin-left: 500px;
+  margin-left: 450px;
 }
 
 .nav-link {
@@ -135,10 +135,57 @@ hr {
 .work {
   margin-top: 50px;
   margin-left: 100px;
+  margin-bottom: 100px;
+  text-align: justify;
 }
 
 h4 {
   color: var(--main-color);
   font-size: 30px;
   font-weight: 500;
+  text-align: justify;
+}
+
+.btn-app {
+  background-color: var(--main-color);
+  border: solid 4px var(--main-color);
+  border-radius: 20px;
+  color: white;
+  padding: 15px 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  display: block;
+  text-align: center;
+
+  margin: 20px 200px 20px 50px;
+  font-size: 20px;
+  font-weight: medium;
+}
+
+.btn-app:hover {
+  color: #fff !important;
+  background-color: var(--secondary-color) !important;
+}
+
+/* Contact */
+
+.contact {
+  margin-top: 50px;
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+.contact-text {
+  margin-top: 20px;
+  margin-bottom: -10px;
+  color: var(--paragraph-text-color);
+}
+
+.find-me {
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--paragraph-text-color);
+}
+
+.github {
+  color: var(--main-color);
 }
